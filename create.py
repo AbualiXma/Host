@@ -2,7 +2,7 @@ import requests
 import random
 import telebot
 
-bot = telebot.TeleBot("6942844571:AAGYspt3qcvTgpXd4pcH-BDoHEpZWA19LXk")
+bot = telebot.TeleBot("6993056231:AAFtrEyEfbWBo6ABAYLab6l9Ta7Mdw6Sioc")
 
 def get_combo():
     url = requests.get("https://combolist.org/generate").text
