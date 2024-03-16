@@ -11,7 +11,7 @@ def get_combo():
     random_line = random.choice(lines)
     el = random_line.split(':')[0]
     pd = random_line.split(':')[1]
-    return "https://www.pythonanywhere.com/registration/register/beginner/**email :    **" + "`" + el + "`" + f"\n**pass :    `{pd}`"
+    return "https://www.pythonanywhere.com/registration/register/beginner/\n\n**email :    **" + "`" + el + "`" + f"\n**pass :    `{pd}`"
 
 @bot.message_handler(commands=['start'])
 def start(message):
